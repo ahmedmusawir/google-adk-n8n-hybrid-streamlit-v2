@@ -1,0 +1,18 @@
+{
+  "environments": {
+    "local": {
+      "wrapper_url": "http://localhost:8080",
+      "adk_bundle_url": "http://localhost:8000"
+    },
+    "cloud": {
+      "wrapper_url": "https://your-wrapper-cloud-url.a.run.app",
+      "adk_bundle_url": "https://your-adk-bundle-cloud-url.a.run.app"
+    }
+  },
+  "agents": [
+    "greeting_agent",
+    "jarvis_agent",
+    "calc_agent",
+    "product_agent"
+  ]
+}
