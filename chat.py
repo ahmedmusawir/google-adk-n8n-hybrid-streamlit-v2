@@ -70,6 +70,12 @@ else:
             "user_id": user_id,
             "session_id": session_id
         }
+
+        # 🔍 ADD THIS DEBUG BLOCK HERE:
+        print(f"🔍 STREAMLIT DEBUG:")
+        print(f"   URL: {WRAPPER_URL}/run_agent")
+        print(f"   Payload: {payload}")
+        
         try:
             response = requests.post(f"{WRAPPER_URL}/run_agent", json=payload, timeout=90)
             response.raise_for_status()
