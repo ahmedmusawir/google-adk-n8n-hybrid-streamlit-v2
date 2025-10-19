@@ -1,0 +1,18 @@
+# Ignore the virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Git directory and local environment files
+.git/
+.gitignore
+.env
+
+# Ignore any local log files or sensitive keys
+*.log
+*.json
+
+# BUT, make an exception and DO include our app's config file
+!config.json

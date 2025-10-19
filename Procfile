@@ -1,0 +1,1 @@
+web: streamlit run chat.py --server.port $PORT --server.enableCORS false
